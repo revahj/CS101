@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#wrapper {
+    width: 1028px;
+    margin: 100px auto 0px auto;
+}
+.empty_date_label span {
+    background-color: #E7E6E6 !important;
+    border: none;
+}
+h1 {
+    font-size: 50px;
+    padding-top: 30px;
+    position: relative;
+    vertical-align: top;
+}
+h1::before, h1::after {
+    background-color: red;
+    content: "";
+    display: inline-block;
+    height: 98px;
+    position: absolute;
+    top: 0;
+    vertical-align: top;
+    width: 198px;
+}
+h1::before {
+    background-image: url("img/Screenshot 2023-01-11 112300 2.png");
+    left: 10px;
+}
+h1::after {
+    background-image: url("img/Screenshot 2023-01-11 112300 3.png");
+    right: 0px;
+}
+table {
+    margin-top: 39px;
+}
+table tr span {
+    border: 2px solid black;
+    display: inline-block;
+    font: 24px/55px Arial, Helvetica, sans-serif;
+    height: 60px;
+    margin: 3px 8px;
+    text-align: center;
+    vertical-align: top;
+    width: 130px;
+}
+table thead tr th span {
+    font-weight: bold;
+}
+table tbody tr td.saturday span {
+    background-color: #5B9BD5;
+}
+table tbody tr td.sunday span {
+    background-color: #A9D08E;
+}

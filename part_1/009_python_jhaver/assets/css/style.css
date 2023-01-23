@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "sourceSansRegular";
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+@font-face {
+    font-family: "sourceSansSemiBold";
+    src: url("../fonts/SourceSansPro-SemiBold.ttf");
+}
+@font-face {
+    font-family: "sourceSansBold";
+    src: url("../fonts/SourceSansPro-Bold.ttf");
+}
+body {
+    background-color: #BABABA;
+}
+#wrapper {
+    background: linear-gradient(180deg, #1E405C 0%, #265275 29.17%, #295980 100%);
+    margin: 0px auto;
+    min-height: 940px;
+    width: 1239px;
+}
+header {
+    border-top: 1px solid #191919;
+    padding: 33px 35px 0px 36px;
+    position: relative;
+    text-align: right;
+}
+header .company_logo {
+    display: inline-block;
+    left: 36px;
+    position: absolute;
+    vertical-align: top;
+}
+header #search_form {
+    background-color: #1E2933;
+    border-bottom: 1px solid #080B0D;
+    border-radius: 5px;
+    border-top: 1px solid #2D3E4D;
+    display: inline-block;
+    height: 69px;
+    padding-left: 20px;
+    vertical-align: top;
+}
+header #search_form input {
+    border: none;
+    font: 16px/22px sourceSansRegular, sans-serif;
+    height: 37px;
+    margin-top: 15px;
+    padding-left: 7px;
+    width: 224px;
+}
+header #search_form button {
+    background: linear-gradient(180deg, #3978AE 0%, #2C5D87 100%);
+    border-radius: 4px;
+    border: 1px solid #3D83BE;
+    color: #fff;
+    cursor: pointer;
+    font: 16px/22px sourceSansRegular, sans-serif;
+    height: 40px;
+    margin: 0px 8px;
+    width: 46px;
+}
+header #search_form .socialize_link {
+    border-left: 1px solid #070A0C;
+    color: #fff;
+    display: inline-block;
+    font: 16px/22px sourceSansRegular, sans-serif;
+    height: 68px;
+    padding: 22px 16px;
+    vertical-align: top;
+}
+header .donate_link {
+    background: linear-gradient(180deg, #FFE692 0%, #FFD54A 100%);
+    border-radius: 4px;
+    border: 1px solid #DCA900;
+    color: #4D4D4D;
+    display: inline-block;
+    font: 16px/22px sourceSansRegular, sans-serif;
+    height: 32px;
+    margin: 18px 5px 0px 0px;
+    padding: 3px 0px;
+    text-align: center;
+    vertical-align: top;
+    width: 74px;
+}
+header #nav_list {
+    background: linear-gradient(180deg, #3776AB 0%, #2D618C 100%);
+    border-bottom: 1px solid #18344C;
+    border-radius: 6px;
+    border-top: 1px solid #619BCB;
+    font-size: 0px;
+    height: 55px;
+    margin-top: 23px;
+    padding-left: 150px;
+    text-align: left;
+    width: 100%;
+}
+header #nav_list li {
+    display: inline-block;
+}
+header #nav_list li.active_tab a{
+    background-color: #2B5A83;
+}
+header #nav_list li a{
+    border-right: 1px solid #2C5E89;
+    color: #fff;
+    display: inline-block;
+    font: 18px/25px sourceSansRegular, sans-serif;
+    padding: 14px 22px;
+    vertical-align: top;
+}
+#splash_section {
+    border-bottom: 1px solid #444444;
+    height: 306px;
+    padding-left: 152px;
+    position: relative;
+}
+#splash_section::after {
+    background-image: url("../images/box.png");
+    content: "";
+    display: inline-block;
+    height: 345px;
+    position: absolute;
+    right: 109px;
+    top: 0px;
+    vertical-align: top;
+    width: 563px;
+    z-index: 2;
+}
+#splash_section h1 {
+    color: #FFD343;
+    display: inline-block;
+    font: 29px/34px sourceSansBold, sans-serif;
+    margin: 28px 0px 13px 0px;
+    vertical-align: top;
+    width: 385px;
+}
+#splash_section h2 {
+    color: #fff;
+    font: 16px/26px sourceSansRegular, sans-serif;
+    width: 401px;
+}
+#content_section {
+    background-color: #fff;
+    border-bottom: 1px solid #D8DBDE;
+    padding: 16px 43px 53px 44px;
+}
+#content_section .content_block {
+    border-top: 4px solid #75A8D3;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 564px;
+}
+#content_section .content_block:first-child {
+    margin-right: 20px;
+}
+#content_section .content_block:nth-child(2) ul li {
+    padding: 7px 0px;
+}
+#content_section .content_block h3 {
+    color: #44444A;
+    font: 22px/22px sourceSansRegular, sans-serif;
+    margin: 21px 0px 8px 0px;
+}
+#content_section .content_block .more_link {
+    color: #A69999;
+    font: 15px/25px sourceSansRegular, sans-serif;
+    position: absolute;
+    right: 0px;
+    top: 22px;
+}
+#content_section .content_block .more_link::before {
+    background-image: url("../images/more_icon.png");
+    content: "";
+    display: inline-block;
+    height: 9px;
+    margin: 8px 1px 0px 0px;
+    vertical-align: top;
+    width: 15px;
+}
+#content_section .content_block ul li {
+    border-top: 1px solid #CACCCE !important;
+    padding: 10px 0px;
+}
+#content_section .content_block ul li span {
+    color: #444444;
+    font: 15px/15px sourceSansRegular, sans-serif;
+}
+#content_section .content_block ul li a {
+    color: #3776AB;
+    display: inline-block;
+    font: 15px/15px sourceSansRegular, sans-serif;
+    margin-left: 34px;
+    vertical-align: top;
+}
+#content_section .content_block ul li h4 {
+    color: #444444;
+    font: 15px/25px sourceSansSemiBold, sans-serif;
+}
+#content_section .content_block ul li h4 span {
+    background-color: #E6E8EA;
+    border-bottom: 1px solid #CACCCE;
+    color: #666666;
+    display: inline-block;
+    font: 13px/13px sourceSansRegular, sans-serif;
+    margin: 3px 0px 0px 5px;
+    padding: 4px 5px;
+    vertical-align: top;
+}
+footer {
+    background: linear-gradient(180deg, #1E3F5C 0%, #2B5B84 64.58%, #2B5B84 100%);
+    border-top: 1px solid #111111;
+    padding-top: 25px;
+    text-align: center;
+}
+footer ul {
+    margin-bottom: 24px;
+}
+footer ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+footer ul li a {
+    color: #89B4D9; 
+    font: 18px/18px sourceSansRegular, sans-serif;
+    margin: 0px 12px;
+}
+footer ul li a.status::after {
+    background-color: #008000;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 13px;
+    margin: 3px 0px 0px 5px;
+    vertical-align: top;
+    width: 13px;
+}
+footer p {
+    color: #89B4D9;
+    font: 13px/13px sourceSansRegular, sans-serif;
+}
+footer p a {
+    color: #89B4D9;
+    font: 13px/13px sourceSansRegular, sans-serif;
+    margin: 0px 5px;
+}

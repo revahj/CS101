@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "wolfSansRegular";
+    src: url("../fonts/wolf_sans_regular.ttf");
+}
+body {
+    background-color: #D9D9D9;
+}
+#wrapper {
+    background: linear-gradient(180deg, #C9E1FA 0%, #FFFFFF 19.91%, #FFFFFF 77.26%, #C9E1FA 100%);
+    margin: 0px auto;
+    padding: 28px 23px 10px 15px;
+    width: 816px;
+}
+header img {
+    display: inline-block;
+    vertical-align: top;
+}
+.profile_container {
+    display: inline-block;
+    margin: 22px 0px 0px 38px;
+    vertical-align: top;
+    width: 492px;
+}
+.profile_container h1 {
+    color: #2D4767;
+    font: 48px/48px wolfSansRegular, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.profile_container h2 {
+    font: 19px/22px roboto, sans-serif;
+    text-transform: uppercase;
+}
+.profile_container p {
+    border-top: 3px solid #2D4767;
+    font: 15px/15px roboto, sans-serif;
+    margin-top: 35px;
+    padding-top: 31px;
+}
+.profile_container p span {
+    font: 15px/15px roboto, sans-serif;
+}
+.profile_container p span::after{
+    background-color: black;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    margin: 4px 7px;
+    vertical-align: top;
+    width: 6px;
+}
+#getting_to_know_section {
+    background: linear-gradient(90deg, #E2E5EA 0%, #EBEEF3 40.75%, #EBEEF3 61.92%, #E2E5EA 100%);
+    margin: 24px 0px 24px 0px;
+    padding: 18px 31px 16px 31px;
+    text-align: center;
+    width: 100%;
+}
+section h2 {
+    color: #49423E;
+    font: 22px/22px wolfSansRegular, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#getting_to_know_section h2 {
+    margin-bottom: 17px;
+}
+#getting_to_know_section p {
+    font: 15px/20px roboto, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+#getting_to_know_section p:last-child {
+    margin: 0px;
+}
+#technologies_section {
+    display: inline-block;
+    min-height: 100px;
+    padding-left: 19px;
+    vertical-align: top;
+    width: 356px;
+}
+#technologies_section li {
+    background-image: url("../images/tracks_sprite.png");
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 11px;
+    margin-right: 4px;
+    vertical-align: top;
+    width: 60px;
+}
+#technologies_section h2 {
+    margin: 9px 0px 26px 0px;
+}
+.php {
+    background-position: 0px 0px;
+}
+.js {
+    background-position: -60px 0px;
+}
+.ruby {
+    background-position: -120px 0px;
+}
+.python {
+    background-position: -180px 0px;
+}
+.html {
+    background-position: -240px 0px;
+}
+.mean {
+    background-position: 0px -60px;
+}
+.codeigniter {
+    background-position: -60px -60px;
+}
+.net {
+    background-position: -120px -60px;
+}
+.dj {
+    background-position: -180px -60px;
+}
+.lamp {
+    background-position: -240px -60px;
+}
+.jquery {
+    background-position: 0px -120px;
+}
+.ajax {
+    background-position: -60px -120px;
+}
+.socketio {
+    background-position: -120px -120px;
+}
+.d3 {
+    background-position: -180px -120px;
+}
+.swift {
+    background-position: -240px -120px;
+}
+.bootstrap {
+    background-position: 0px -180px;
+}
+.materialize {
+    background-position: -60px -180px;
+}
+.mongodb {
+    background-position: -120px -180px;
+}
+.mysql {
+    background-position: -180px -180px;
+}
+.sqlite {
+    background-position: -240px -180px;
+}
+#my_projects_section {
+    background: linear-gradient(180deg, #E4E0E0 14.58%, #FFFFFF 50%, #AFAFAF 100%);
+    display: inline-block;
+    margin-left: 27px;
+    min-height: 100px;
+    padding: 13px 10px 18px 32px;
+    vertical-align: top;
+    width: 391px;
+}
+#my_projects_section h2 {
+    margin-bottom: 32px;
+}
+#my_projects_section h3 {
+    font: 14px/14px roboto, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+#my_projects_section p {
+    font: 15px/21px roboto, sans-serif;
+}
+.bullet {
+    margin-top: 3px;
+}
+.bullet::before{
+    background-color: #000;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    margin: 7px 7px 10px 0px;
+    vertical-align: top;
+    width: 6px;
+}
+#socmed_links {
+    list-style: none;
+    text-align: center;
+    margin-top: 21px;
+}
+#socmed_links li {
+    display: inline-block;
+    margin: 0px 6px 3px 0px;
+    vertical-align: top;
+}
+#socmed_links li:last-child {
+    margin: 0px;
+}
+#socmed_links li a {
+   color: #2D2F32;
+   display: inline-block;
+   font-style: italic;
+   font: 15px/32px roboto, sans-serif;
+   margin-top: 10px;
+   vertical-align: top;
+}
+#socmed_links li a::before {
+    background-image: url("../images/soc_med_sprite.png");
+    border-radius: 4px;
+    content: "";
+    display: inline-block;
+    height: 27px;
+    margin-right: 2px;
+    vertical-align: top;
+    width: 27px;
+}
+#socmed_links li.git a::before {
+    background-position: 0px 0px;
+}
+#socmed_links li.tweeter a::before {
+    background-position: -27px 0px;
+}
+#socmed_links li.linkedin a::before {
+    background-position: -54px 0px;
+}
+#socmed_links li.bit a::before {
+    background-position: -81px 0px;
+}
+
+
