@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #BABABA;
+}
+.wrapper {
+    width: 970px;
+    min-height: 500px;
+    background-image: url("../images/bg.png");
+    margin: 0px auto;
+}
+header {
+    background-color: #8892BF;
+    border-bottom: 2px solid #4F5B93;
+    position: relative;
+    height: 32px;
+    padding: 0px 55px;
+}
+.company_logo {
+    width: 30px;
+    height: 15px;
+    background-image: url("../images/logo_php.svg");
+    padding: 0px;
+    margin: 6px 12px 0px 0px;
+}
+header ul {
+    display: inline-block;
+    vertical-align: top;
+}
+header ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+header ul li.active_tab a {
+    background-color: #4F5B93;
+    height: 32px;
+}
+header ul li a {
+    font: 10px/11px roboto, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 7px;
+}
+header form {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 42px;
+}
+header form input {
+    width: 222px;
+    height: 15px;
+    border-radius: 2px;
+    border: none;
+    font: 10px/11px roboto, sans-serif;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+section {
+    background-color: #fff;
+    margin: 0px 0px 0px 41px;
+    width: 665px;
+    border-right: 2px solid #666666;
+    text-align: right;
+    padding: 0px 15px 0px 14px;
+}
+section h1 {
+    font: 17px/19px roboto, sans-serif;
+    color: #333333;
+}
+section h2 {
+    font: 15px/16px roboto, sans-serif;
+    color: #333333;
+}
+section h3 {
+    font: 12px/14px roboto, sans-serif;
+    color: #793862;
+}
+section h1, section h2, section h3 {
+    border-bottom: 1px dotted #333333;
+    font-weight: bold;
+    text-align: left;
+}
+section ul {
+    list-style: none;
+    text-align: left;
+}
+section ul li::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #333333;
+    border-radius: 50%;
+    margin: 7px 8px 0px 0px;
+}
+section ul li a{
+    color: #336699;
+    text-decoration: none;
+    border-bottom: 1px solid #336699;
+    font: 10px/11px roboto, sans-serif;
+}
+section p {
+    font: 9px/11px roboto, sans-serif;
+    text-align: left;
+}

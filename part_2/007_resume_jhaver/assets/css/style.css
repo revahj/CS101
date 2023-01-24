@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "wolfSansRegular";
+    src: url("../fonts/wolf_sans_regular.ttf");
+}
+body {
+    background-color: #D9D9D9;
+}
+.wrapper {
+   width: 816px;
+   background: linear-gradient(180deg, #C9E1FA 0%, #FFFFFF 19.91%, #FFFFFF 77.26%, #C9E1FA 100%);
+   margin: 0px auto;
+   padding: 28px 23px 13px 15px;
+}
+header {
+    position: relative;
+}
+header img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+header h1 {
+    margin: 19px 0px 0px 282px;
+    font: 48px/55px wolfSansRegular, sans-serif;
+    color: #2D4767;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+}
+header h2 {
+    font: 19px/22px roboto, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 282px;
+    border-bottom: 2px solid #2D4767;
+    padding-bottom: 35px;
+}
+header p {
+    font: 15px/17px roboto, sans-serif;
+    color: #000000;
+    margin: 0px 0px 0px 282px;
+}
+header p span {
+    display: inline-block;
+    vertical-align: top;
+}
+header p span::before, header p span::after {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-color: #000;
+}
+header p span::before {
+    margin: 5px 7px 0px 3px;
+}
+header p span::after {
+    margin: 5px 6px 0px 7px;
+}
+.getting_to_know_section {
+    background: linear-gradient(90deg, #E2E5EA 0%, #EBEEF3 40.75%, #EBEEF3 61.92%, #E2E5EA 100%);
+    width: 100%;
+    text-align: center;
+    padding: 17px 31px 16px 32px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 55px 0px 0px 0px;
+}
+.getting_to_know_section h2 {
+    font: 22px/25px wolfSansRegular, sans-serif;
+    color: #49423E;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.getting_to_know_section p {
+    font: 15px/20px roboto, sans-serif;
+    color: #000;
+    text-align: left;
+    margin-bottom: 23px;
+}
+.getting_to_know_section p:last-child {
+    margin: 0px;
+}
+.language_section {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 19px;
+    width: 362px;
+}
+.language_section h2 {
+    font: 22px/25px wolfSansRegular, sans-serif;
+    color: #49423E;
+    text-transform: uppercase;
+    margin: 32px 0px 25px 0px;
+}
+.language_section ul  {
+    list-style: none;
+}
+.language_section ul li {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 11px;
+    margin-right: 4px;
+    background-image: url("../images/tracks_sprite.png");
+}
+.js {
+    background-position: 240px 0px;
+}
+.ruby {
+    background-position: 180px 0px;
+}
+.python {
+    background-position: 120px 0px;
+}
+.html {
+    background-position: 60px 0px;
+}
+.mean {
+    background-position: 0px 180px;
+}
+.codeigniter {
+    background-position: 240px 180px;
+}
+.net {
+    background-position: 180px 180px;
+}
+.django {
+    background-position: 120px 180px;
+}
+.lamp {
+    background-position: 60px 180px;
+}
+.jquery {
+    background-position: 0px 120px;
+}
+.ajax {
+    background-position: 240px 120px;
+}
+.socketio {
+    background-position: 180px 120px;
+}
+.ds {
+    background-position: 120px 120px;
+}
+.swift {
+    background-position: 60px 120px;
+}
+.bootstrap {
+    background-position: 0px 60px;
+}
+.materialize {
+    background-position: 240px 60px;
+}
+.mongodb {
+    background-position: 180px 60px;
+}
+.mysql {
+    background-position: 120px 60px;
+}
+.sqlite {
+    background-position: 60px 60px;
+}
+.projects_section {
+    display: inline-block;
+    vertical-align: top;
+    background: linear-gradient(180deg, #E4E0E0 14.58%, #FFFFFF 50%, #AFAFAF 100%);
+    width: 393px;
+    min-height: 100px;
+    margin-top: 24px;
+    padding: 12px 18px 18px 31px;
+}
+.projects_section h2 {
+    font: 22px/25px wolfSansRegular, sans-serif;
+    color: #49423E;
+    text-transform: uppercase;
+    text-align: center;
+}
+.projects_section h3 {
+    font: 14px/16px roboto, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 2px;
+
+}
+.projects_section p {
+    font: 15px/21px roboto, sans-serif;
+    color: #000;
+}
+.bullet::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #000;
+    margin: 7px 7px 0px 0px;
+}
+.wrapper > ul {
+    list-style: none;
+    text-align: center;
+    margin: 38px 0px 0px 0px;
+}
+.wrapper > ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6px;
+}
+.wrapper > ul li:last-child {
+    margin: 0px;
+}
+.wrapper > ul li a {
+    font: 15px/21px roboto, sans-serif;
+    font-style: italic;
+    color: #000;
+    vertical-align: bottom;
+    position: relative;
+    padding-top: 9px;
+    padding-left: 30px;
+}
+.wrapper > ul li a::before {
+    width: 27px;
+    height: 27px;
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    background-image: url("../images/soc_med_sprite.png");
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wrapper > ul li a.tweeter::before {
+    background-position: 81px 0px;
+}
+.wrapper > ul li a.linkein::before {
+    background-position: 54px 0px;
+}
+.wrapper > ul li a.logo::before {
+    background-position: 27px 0px;
+}
