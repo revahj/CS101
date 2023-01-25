@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.wrapper {
+    width: 1280px;
+    background-image: url("../images/bg.png");
+    margin: 0px auto;
+    padding: 0px 68px;
+    header {
+        a {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font: 25px/29px roboto, sans-serif;
+            text-decoration: none;
+            padding: 16px 20px;
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 20px;
+        }
+    }
+    h2 {
+        width: 100%;
+        background-color: #C75000;
+        text-align: center;
+        height: 96px;
+        font: 35px/41px roboto, sans-serif;
+        color: #fff;
+        padding: 26px 0px;
+        span {
+            border-bottom: 1px solid #fff;
+            width: 468px;
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+    section {
+        background-color: #F2E8D5;
+        padding: 19px 20px 0px 19px;
+        h1 {
+            margin-bottom: 22px;
+            font: 34px/39px roboto, sans-serif;
+        }
+        p {
+            font: 20px/30px roboto, sans-serif;  
+            width: 520px;
+        }
+        ul {
+            list-style: none;
+            > li {
+                display: inline-block;
+                vertical-align: top;
+                >ul {
+                    background-color: #EAE1CE;
+                    display: inline-block;
+                    vertical-align: top;
+                    border-top: 5px solid #000;
+                    li {
+                        width: 92px;
+                        height: 38px;
+                        display: block;
+                        margin: 4px 0px;
+                        &.very_good {
+                            background-color: #2A8436;
+                        }
+                        &.good {
+                            background-color: #936F14;
+                        }
+                        &.bad {
+                            background-color: #800000;
+                        }
+                    }
+                }
+                h3 {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
