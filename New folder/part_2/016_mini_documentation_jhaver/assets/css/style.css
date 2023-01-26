@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper aside {
+  width: 500px;
+  height: 100vh;
+  background-color: #DFECFF;
+  text-align: right;
+  padding-top: 270px;
+  position: fixed;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+.wrapper aside > div {
+  background-color: #0769AD;
+  width: 500px;
+  height: 210px;
+  text-align: right;
+  margin-bottom: 50px;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  padding: 100px 47px 0px 0px;
+}
+.wrapper aside > div h1 {
+  font: 23px/26px roboto, sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+.wrapper aside > button {
+  width: 273px;
+  height: 52px;
+  border: none;
+  border-bottom: 1px solid #C0D3F0;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  font: 18px/21px roboto, sans-serif;
+  color: #628FD3;
+  margin-right: 30px;
+  transition: 0.21s;
+}
+.wrapper aside > button.active {
+  border-color: #0769AD;
+  font-weight: bolder;
+}
+.wrapper aside > button::after {
+  content: "";
+  width: 6px;
+  height: 10px;
+  background-image: url("../images/small_caret.png");
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  right: 0px;
+}
+.wrapper aside > button:hover {
+  border-color: #0769AD;
+  font-weight: bolder;
+}
+.wrapper > ul {
+  padding-left: 573px;
+  padding-top: 223px;
+  padding-right: 73px;
+}
+.wrapper > ul li {
+  display: none;
+}
+.wrapper > ul li.show {
+  display: block;
+}
+.wrapper > ul li > div {
+  border-bottom: 2px solid #EAEAEA;
+  width: 100%;
+  padding-bottom: 19px;
+  margin-bottom: 32px;
+  position: relative;
+}
+.wrapper > ul li > div .left_btn,
+.wrapper > ul li > div .right_btn {
+  width: 50px;
+  height: 50px;
+  background-color: #F0F6FF;
+  border: 1px solid #99C0F9;
+  border-radius: 5px;
+  background-image: url("../images/caret.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: absolute;
+  cursor: pointer;
+  top: 12px;
+}
+.wrapper > ul li > div .left_btn:hover,
+.wrapper > ul li > div .right_btn:hover {
+  background-color: #D0E3FF;
+}
+.wrapper > ul li > div .left_btn {
+  right: 60px;
+}
+.wrapper > ul li > div .right_btn {
+  transform: rotate(180deg);
+  right: 0px;
+}
+.wrapper > ul li h2 {
+  font: 67px/78px roboto, sans-serif;
+  font-weight: bolder;
+  color: #4A4A4A;
+  display: inline-block;
+}
+.wrapper > ul li .testing_area {
+  border: none;
+  width: 700px;
+  height: 300px;
+  background-color: #EAEAEA;
+  display: block;
+  border-radius: 10px;
+  padding: 30px;
+}
+.wrapper > ul li .testing_area > button {
+  width: auto;
+  background-color: #0769AD;
+  border-radius: 10px;
+  padding: 17px 30px;
+  border: none;
+  font: 18px/21px roboto, sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+.wrapper > ul li .testing_area > button:hover {
+  opacity: 0.8;
+}
+.wrapper > ul li p {
+  font: 18px/21px roboto, sans-serif;
+  color: #A0A0A0;
+  margin-bottom: 70px;
+}
+.wrapper > ul li h3 {
+  font: 18px/21px roboto, sans-serif;
+  color: #A0A0A0;
+  margin-bottom: 10px;
+}

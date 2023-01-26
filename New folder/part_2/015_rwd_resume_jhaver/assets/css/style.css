@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "wolfSansRegular";
+  src: url("../fonts/wolf_sans_regular.ttf");
+}
+body {
+  background-color: #D9D9D9;
+}
+.wrapper {
+  width: 816px;
+  background: linear-gradient(180deg, #c9e1fa 0%, #ffffff 19.91%, #ffffff 77.26%, #c9e1fa 100%);
+  margin: 0px auto;
+  padding: 28px 23px 13px 15px;
+}
+.wrapper header {
+  position: relative;
+}
+.wrapper header img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.wrapper header h1 {
+  margin: 19px 0px 0px 282px;
+  font: 48px/55px wolfSansRegular, sans-serif;
+  color: #2D4767;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper header h2 {
+  font: 19px/22px roboto, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0px 0px 30px 282px;
+  border-bottom: 2px solid #2D4767;
+  padding-bottom: 35px;
+}
+.wrapper header p {
+  font: 15px/17px roboto, sans-serif;
+  color: #000000;
+  margin: 0px 0px 0px 282px;
+}
+.wrapper header p span {
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper header p span::before,
+.wrapper header p span::after {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  background-color: #000;
+}
+.wrapper header p span::before {
+  margin: 5px 7px 0px 3px;
+}
+.wrapper header p span::after {
+  margin: 5px 6px 0px 7px;
+}
+.wrapper .getting_to_know_section {
+  background: linear-gradient(90deg, #e2e5ea 0%, #ebeef3 40.75%, #ebeef3 61.92%, #e2e5ea 100%);
+  width: 100%;
+  text-align: center;
+  padding: 17px 31px 16px 32px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 55px 0px 0px 0px;
+}
+.wrapper .getting_to_know_section h2 {
+  font: 22px/25px wolfSansRegular, sans-serif;
+  color: #49423E;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.wrapper .getting_to_know_section p {
+  font: 15px/20px roboto, sans-serif;
+  color: #000;
+  text-align: left;
+  margin-bottom: 23px;
+}
+.wrapper .getting_to_know_section p:last-child {
+  margin: 0px;
+}
+.wrapper .language_section {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 19px;
+  width: 362px;
+}
+.wrapper .language_section h2 {
+  font: 22px/25px wolfSansRegular, sans-serif;
+  color: #49423E;
+  text-transform: uppercase;
+  margin: 32px 0px 25px 0px;
+}
+.wrapper .language_section ul {
+  list-style: none;
+}
+.wrapper .language_section ul li {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 11px;
+  margin-right: 4px;
+  background-image: url("../images/tracks_sprite.png");
+}
+.wrapper .language_section ul .js {
+  background-position: 240px 0px;
+}
+.wrapper .language_section ul .ruby {
+  background-position: 180px 0px;
+}
+.wrapper .language_section ul .python {
+  background-position: 120px 0px;
+}
+.wrapper .language_section ul .html {
+  background-position: 60px 0px;
+}
+.wrapper .language_section ul .mean {
+  background-position: 0px 180px;
+}
+.wrapper .language_section ul .codeigniter {
+  background-position: 240px 180px;
+}
+.wrapper .language_section ul .net {
+  background-position: 180px 180px;
+}
+.wrapper .language_section ul .django {
+  background-position: 120px 180px;
+}
+.wrapper .language_section ul .lamp {
+  background-position: 60px 180px;
+}
+.wrapper .language_section ul .jquery {
+  background-position: 0px 120px;
+}
+.wrapper .language_section ul .ajax {
+  background-position: 240px 120px;
+}
+.wrapper .language_section ul .socketio {
+  background-position: 180px 120px;
+}
+.wrapper .language_section ul .ds {
+  background-position: 120px 120px;
+}
+.wrapper .language_section ul .swift {
+  background-position: 60px 120px;
+}
+.wrapper .language_section ul .bootstrap {
+  background-position: 0px 60px;
+}
+.wrapper .language_section ul .materialize {
+  background-position: 240px 60px;
+}
+.wrapper .language_section ul .mongodb {
+  background-position: 180px 60px;
+}
+.wrapper .language_section ul .mysql {
+  background-position: 120px 60px;
+}
+.wrapper .language_section ul .sqlite {
+  background-position: 60px 60px;
+}
+.wrapper .projects_section {
+  display: inline-block;
+  vertical-align: top;
+  background: linear-gradient(180deg, #e4e0e0 14.58%, #ffffff 50%, #afafaf 100%);
+  width: 393px;
+  min-height: 100px;
+  margin-top: 24px;
+  padding: 12px 18px 18px 31px;
+}
+.wrapper .projects_section h2 {
+  font: 22px/25px wolfSansRegular, sans-serif;
+  color: #49423E;
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper .projects_section h3 {
+  font: 14px/16px roboto, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 2px;
+}
+.wrapper .projects_section p {
+  font: 15px/21px roboto, sans-serif;
+  color: #000;
+}
+.wrapper .bullet::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #000;
+  margin: 7px 7px 0px 0px;
+}
+.wrapper > ul {
+  list-style: none;
+  text-align: center;
+  margin: 38px 0px 0px 0px;
+}
+.wrapper > ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 6px;
+}
+.wrapper > ul li:last-child {
+  margin: 0px;
+}
+.wrapper > ul li a {
+  font: 15px/21px roboto, sans-serif;
+  font-style: italic;
+  color: #000;
+  vertical-align: bottom;
+  position: relative;
+  padding-top: 9px;
+  padding-left: 30px;
+}
+.wrapper > ul li a::before {
+  width: 27px;
+  height: 27px;
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../images/soc_med_sprite.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.wrapper > ul li a.tweeter::before {
+  background-position: 81px 0px;
+}
+.wrapper > ul li a.linkein::before {
+  background-position: 54px 0px;
+}
+.wrapper > ul li a.logo::before {
+  background-position: 27px 0px;
+}
+@media screen and (max-width: 832px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper header img {
+    width: 190px;
+  }
+  .wrapper header h1 {
+    margin: 0px 0px 0px 215px;
+  }
+  .wrapper header h2 {
+    margin: 0px 0px 30px 215px;
+  }
+  .wrapper header p {
+    margin: 0px 0px 0px 215px;
+  }
+  .wrapper .language_section {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .wrapper .projects_section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .wrapper header {
+    text-align: center;
+  }
+  .wrapper header img {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+  }
+  .wrapper header h1 {
+    margin: 30px 0px 0px 0px;
+  }
+  .wrapper header h2 {
+    margin: 0px 0px 14px 0px;
+    padding-bottom: 14px;
+  }
+  .wrapper header p {
+    margin: 0px 0px 0px 0px;
+  }
+  .wrapper .getting_to_know_section {
+    margin-top: 30px;
+  }
+}
